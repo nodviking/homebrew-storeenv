@@ -1,28 +1,28 @@
 class Storeenv < Formula
   desc "Git for .env files: encrypted, versioned environment secrets"
   homepage "https://storeenv.app"
-  version "0.2.2"
+  version "0.2.3"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/tusharrr0302/homebrew-storeenv/releases/download/v0.2.2/storeenv-darwin-arm64.tar.gz"
-      sha256 "7842abda78058e882a2a37beddb44df242d07198bcaae31572559a4f15186425"
+      url "https://github.com/tusharrr0302/homebrew-storeenv/releases/download/v0.2.3/storeenv-darwin-arm64.tar.gz"
+      sha256 "fd31fa9bd4a07c99b3bf88d5ac17732af6fe49a64921a981d3b46c078e116590"
     end
     on_intel do
-      url "https://github.com/tusharrr0302/homebrew-storeenv/releases/download/v0.2.2/storeenv-darwin-x64.tar.gz"
-      sha256 "ac66748b3b5b59fa94f3ebfb6c1d2636211f39c6ea4b14fb2a12df953da23879"
+      url "https://github.com/tusharrr0302/homebrew-storeenv/releases/download/v0.2.3/storeenv-darwin-x64.tar.gz"
+      sha256 "9f5b0d0b02e5eab2a660b25ed85e9ab298769a697f2c306631036025f297a82d"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/tusharrr0302/homebrew-storeenv/releases/download/v0.2.2/storeenv-linux-arm64.tar.gz"
-      sha256 "5db4612068bce0c14950fc401bd4295ed21a18e2cf621dbc0c608895daac5419"
+      url "https://github.com/tusharrr0302/homebrew-storeenv/releases/download/v0.2.3/storeenv-linux-arm64.tar.gz"
+      sha256 "b1116de8df4bfacaa9ab13ffbe0ecf5af98a22816147f5d1908d3bd55ebada64"
     end
     on_intel do
-      url "https://github.com/tusharrr0302/homebrew-storeenv/releases/download/v0.2.2/storeenv-linux-x64.tar.gz"
-      sha256 "de7974e07a0504312358916829b8a1fd830c80f1845f709f5150c1a20e28aabc"
+      url "https://github.com/tusharrr0302/homebrew-storeenv/releases/download/v0.2.3/storeenv-linux-x64.tar.gz"
+      sha256 "cc8ce29546eb1cbac91040052545c899e1fd04154bd3dd6d2a1f38607f60c70e"
     end
   end
 
