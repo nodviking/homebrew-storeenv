@@ -4,5 +4,5 @@ Standalone builds of the [StoreEnv](https://storeenv.app) CLI and its Homebrew t
 
 ```
 curl -fsSL https://storeenv.app/install.sh | sh
-brew install tusharrr0302/storeenv/storeenv
+brew install nodviking/storeenv/storeenv
 ```
